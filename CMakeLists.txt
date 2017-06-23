@@ -7,6 +7,6 @@ set(SOURCE_FILES
         example/copy/copy.cpp
         example/copy/copy.h
         example/myutils.h
-        main.cpp)
+        main.cpp example/concat/concat.cpp)
 
 add_executable(TLPI ${SOURCE_FILES})

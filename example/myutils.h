@@ -13,7 +13,7 @@
 #include <fcntl.h>
 #include <errno.h>
 #include <error.h>
-#include <varargs.h>
+#include <stdarg.h>
 
 inline void _err_exit(int errcode, char* format, ...) {
     va_list arg_list;

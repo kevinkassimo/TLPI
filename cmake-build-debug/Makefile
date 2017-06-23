@@ -123,6 +123,33 @@ TLPI/fast:
 	$(MAKE) -f CMakeFiles/TLPI.dir/build.make CMakeFiles/TLPI.dir/build
 .PHONY : TLPI/fast
 
+example/concat/concat.o: example/concat/concat.cpp.o
+
+.PHONY : example/concat/concat.o
+
+# target to build an object file
+example/concat/concat.cpp.o:
+	$(MAKE) -f CMakeFiles/TLPI.dir/build.make CMakeFiles/TLPI.dir/example/concat/concat.cpp.o
+.PHONY : example/concat/concat.cpp.o
+
+example/concat/concat.i: example/concat/concat.cpp.i
+
+.PHONY : example/concat/concat.i
+
+# target to preprocess a source file
+example/concat/concat.cpp.i:
+	$(MAKE) -f CMakeFiles/TLPI.dir/build.make CMakeFiles/TLPI.dir/example/concat/concat.cpp.i
+.PHONY : example/concat/concat.cpp.i
+
+example/concat/concat.s: example/concat/concat.cpp.s
+
+.PHONY : example/concat/concat.s
+
+# target to generate assembly for a file
+example/concat/concat.cpp.s:
+	$(MAKE) -f CMakeFiles/TLPI.dir/build.make CMakeFiles/TLPI.dir/example/concat/concat.cpp.s
+.PHONY : example/concat/concat.cpp.s
+
 example/copy/copy.o: example/copy/copy.cpp.o
 
 .PHONY : example/copy/copy.o
@@ -186,6 +213,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... TLPI"
+	@echo "... example/concat/concat.o"
+	@echo "... example/concat/concat.i"
+	@echo "... example/concat/concat.s"
 	@echo "... example/copy/copy.o"
 	@echo "... example/copy/copy.i"
 	@echo "... example/copy/copy.s"

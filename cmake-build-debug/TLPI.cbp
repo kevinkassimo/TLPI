@@ -84,6 +84,9 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/home/kunqian/Desktop/CLion/TLPI/example/concat/concat.cpp">
+			<Option target="TLPI"/>
+		</Unit>
 		<Unit filename="/home/kunqian/Desktop/CLion/TLPI/example/copy/copy.cpp">
 			<Option target="TLPI"/>
 		</Unit>
