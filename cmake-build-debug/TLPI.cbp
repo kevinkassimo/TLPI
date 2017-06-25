@@ -84,33 +84,6 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/home/kunqian/Desktop/CLion/TLPI/example/concat/concat.cpp">
-			<Option target="TLPI"/>
-		</Unit>
-		<Unit filename="/home/kunqian/Desktop/CLion/TLPI/example/copy/copy.cpp">
-			<Option target="TLPI"/>
-		</Unit>
-		<Unit filename="/home/kunqian/Desktop/CLion/TLPI/example/copy/copy.h">
-			<Option target="TLPI"/>
-		</Unit>
-		<Unit filename="/home/kunqian/Desktop/CLion/TLPI/example/environ/environ.cpp">
-			<Option target="TLPI"/>
-		</Unit>
-		<Unit filename="/home/kunqian/Desktop/CLion/TLPI/example/iov/iov.cpp">
-			<Option target="TLPI"/>
-		</Unit>
-		<Unit filename="/home/kunqian/Desktop/CLion/TLPI/example/jmp/jmp.cpp">
-			<Option target="TLPI"/>
-		</Unit>
-		<Unit filename="/home/kunqian/Desktop/CLion/TLPI/example/myutils.h">
-			<Option target="TLPI"/>
-		</Unit>
-		<Unit filename="/home/kunqian/Desktop/CLion/TLPI/example/setenv/setenv.cpp">
-			<Option target="TLPI"/>
-		</Unit>
-		<Unit filename="/home/kunqian/Desktop/CLion/TLPI/main.cpp">
-			<Option target="TLPI"/>
-		</Unit>
 		<Unit filename="/home/kunqian/Desktop/CLion/TLPI/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
