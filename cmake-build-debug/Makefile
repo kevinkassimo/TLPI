@@ -177,6 +177,114 @@ example/copy/copy.cpp.s:
 	$(MAKE) -f CMakeFiles/TLPI.dir/build.make CMakeFiles/TLPI.dir/example/copy/copy.cpp.s
 .PHONY : example/copy/copy.cpp.s
 
+example/environ/environ.o: example/environ/environ.cpp.o
+
+.PHONY : example/environ/environ.o
+
+# target to build an object file
+example/environ/environ.cpp.o:
+	$(MAKE) -f CMakeFiles/TLPI.dir/build.make CMakeFiles/TLPI.dir/example/environ/environ.cpp.o
+.PHONY : example/environ/environ.cpp.o
+
+example/environ/environ.i: example/environ/environ.cpp.i
+
+.PHONY : example/environ/environ.i
+
+# target to preprocess a source file
+example/environ/environ.cpp.i:
+	$(MAKE) -f CMakeFiles/TLPI.dir/build.make CMakeFiles/TLPI.dir/example/environ/environ.cpp.i
+.PHONY : example/environ/environ.cpp.i
+
+example/environ/environ.s: example/environ/environ.cpp.s
+
+.PHONY : example/environ/environ.s
+
+# target to generate assembly for a file
+example/environ/environ.cpp.s:
+	$(MAKE) -f CMakeFiles/TLPI.dir/build.make CMakeFiles/TLPI.dir/example/environ/environ.cpp.s
+.PHONY : example/environ/environ.cpp.s
+
+example/iov/iov.o: example/iov/iov.cpp.o
+
+.PHONY : example/iov/iov.o
+
+# target to build an object file
+example/iov/iov.cpp.o:
+	$(MAKE) -f CMakeFiles/TLPI.dir/build.make CMakeFiles/TLPI.dir/example/iov/iov.cpp.o
+.PHONY : example/iov/iov.cpp.o
+
+example/iov/iov.i: example/iov/iov.cpp.i
+
+.PHONY : example/iov/iov.i
+
+# target to preprocess a source file
+example/iov/iov.cpp.i:
+	$(MAKE) -f CMakeFiles/TLPI.dir/build.make CMakeFiles/TLPI.dir/example/iov/iov.cpp.i
+.PHONY : example/iov/iov.cpp.i
+
+example/iov/iov.s: example/iov/iov.cpp.s
+
+.PHONY : example/iov/iov.s
+
+# target to generate assembly for a file
+example/iov/iov.cpp.s:
+	$(MAKE) -f CMakeFiles/TLPI.dir/build.make CMakeFiles/TLPI.dir/example/iov/iov.cpp.s
+.PHONY : example/iov/iov.cpp.s
+
+example/jmp/jmp.o: example/jmp/jmp.cpp.o
+
+.PHONY : example/jmp/jmp.o
+
+# target to build an object file
+example/jmp/jmp.cpp.o:
+	$(MAKE) -f CMakeFiles/TLPI.dir/build.make CMakeFiles/TLPI.dir/example/jmp/jmp.cpp.o
+.PHONY : example/jmp/jmp.cpp.o
+
+example/jmp/jmp.i: example/jmp/jmp.cpp.i
+
+.PHONY : example/jmp/jmp.i
+
+# target to preprocess a source file
+example/jmp/jmp.cpp.i:
+	$(MAKE) -f CMakeFiles/TLPI.dir/build.make CMakeFiles/TLPI.dir/example/jmp/jmp.cpp.i
+.PHONY : example/jmp/jmp.cpp.i
+
+example/jmp/jmp.s: example/jmp/jmp.cpp.s
+
+.PHONY : example/jmp/jmp.s
+
+# target to generate assembly for a file
+example/jmp/jmp.cpp.s:
+	$(MAKE) -f CMakeFiles/TLPI.dir/build.make CMakeFiles/TLPI.dir/example/jmp/jmp.cpp.s
+.PHONY : example/jmp/jmp.cpp.s
+
+example/setenv/setenv.o: example/setenv/setenv.cpp.o
+
+.PHONY : example/setenv/setenv.o
+
+# target to build an object file
+example/setenv/setenv.cpp.o:
+	$(MAKE) -f CMakeFiles/TLPI.dir/build.make CMakeFiles/TLPI.dir/example/setenv/setenv.cpp.o
+.PHONY : example/setenv/setenv.cpp.o
+
+example/setenv/setenv.i: example/setenv/setenv.cpp.i
+
+.PHONY : example/setenv/setenv.i
+
+# target to preprocess a source file
+example/setenv/setenv.cpp.i:
+	$(MAKE) -f CMakeFiles/TLPI.dir/build.make CMakeFiles/TLPI.dir/example/setenv/setenv.cpp.i
+.PHONY : example/setenv/setenv.cpp.i
+
+example/setenv/setenv.s: example/setenv/setenv.cpp.s
+
+.PHONY : example/setenv/setenv.s
+
+# target to generate assembly for a file
+example/setenv/setenv.cpp.s:
+	$(MAKE) -f CMakeFiles/TLPI.dir/build.make CMakeFiles/TLPI.dir/example/setenv/setenv.cpp.s
+.PHONY : example/setenv/setenv.cpp.s
+
 main.o: main.cpp.o
 
 .PHONY : main.o
@@ -219,6 +327,18 @@ help:
 	@echo "... example/copy/copy.o"
 	@echo "... example/copy/copy.i"
 	@echo "... example/copy/copy.s"
+	@echo "... example/environ/environ.o"
+	@echo "... example/environ/environ.i"
+	@echo "... example/environ/environ.s"
+	@echo "... example/iov/iov.o"
+	@echo "... example/iov/iov.i"
+	@echo "... example/iov/iov.s"
+	@echo "... example/jmp/jmp.o"
+	@echo "... example/jmp/jmp.i"
+	@echo "... example/jmp/jmp.s"
+	@echo "... example/setenv/setenv.o"
+	@echo "... example/setenv/setenv.i"
+	@echo "... example/setenv/setenv.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

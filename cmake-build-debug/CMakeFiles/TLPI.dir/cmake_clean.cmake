@@ -2,6 +2,10 @@ file(REMOVE_RECURSE
   "CMakeFiles/TLPI.dir/example/copy/copy.cpp.o"
   "CMakeFiles/TLPI.dir/main.cpp.o"
   "CMakeFiles/TLPI.dir/example/concat/concat.cpp.o"
+  "CMakeFiles/TLPI.dir/example/iov/iov.cpp.o"
+  "CMakeFiles/TLPI.dir/example/environ/environ.cpp.o"
+  "CMakeFiles/TLPI.dir/example/setenv/setenv.cpp.o"
+  "CMakeFiles/TLPI.dir/example/jmp/jmp.cpp.o"
   "TLPI.pdb"
   "TLPI"
 )

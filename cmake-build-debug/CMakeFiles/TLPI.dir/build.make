@@ -129,11 +129,111 @@ CMakeFiles/TLPI.dir/example/concat/concat.cpp.o.provides: CMakeFiles/TLPI.dir/ex
 CMakeFiles/TLPI.dir/example/concat/concat.cpp.o.provides.build: CMakeFiles/TLPI.dir/example/concat/concat.cpp.o
 
 
+CMakeFiles/TLPI.dir/example/iov/iov.cpp.o: CMakeFiles/TLPI.dir/flags.make
+CMakeFiles/TLPI.dir/example/iov/iov.cpp.o: ../example/iov/iov.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kunqian/Desktop/CLion/TLPI/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/TLPI.dir/example/iov/iov.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/TLPI.dir/example/iov/iov.cpp.o -c /home/kunqian/Desktop/CLion/TLPI/example/iov/iov.cpp
+
+CMakeFiles/TLPI.dir/example/iov/iov.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/TLPI.dir/example/iov/iov.cpp.i"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kunqian/Desktop/CLion/TLPI/example/iov/iov.cpp > CMakeFiles/TLPI.dir/example/iov/iov.cpp.i
+
+CMakeFiles/TLPI.dir/example/iov/iov.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/TLPI.dir/example/iov/iov.cpp.s"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kunqian/Desktop/CLion/TLPI/example/iov/iov.cpp -o CMakeFiles/TLPI.dir/example/iov/iov.cpp.s
+
+CMakeFiles/TLPI.dir/example/iov/iov.cpp.o.requires:
+
+.PHONY : CMakeFiles/TLPI.dir/example/iov/iov.cpp.o.requires
+
+CMakeFiles/TLPI.dir/example/iov/iov.cpp.o.provides: CMakeFiles/TLPI.dir/example/iov/iov.cpp.o.requires
+	$(MAKE) -f CMakeFiles/TLPI.dir/build.make CMakeFiles/TLPI.dir/example/iov/iov.cpp.o.provides.build
+.PHONY : CMakeFiles/TLPI.dir/example/iov/iov.cpp.o.provides
+
+CMakeFiles/TLPI.dir/example/iov/iov.cpp.o.provides.build: CMakeFiles/TLPI.dir/example/iov/iov.cpp.o
+
+
+CMakeFiles/TLPI.dir/example/environ/environ.cpp.o: CMakeFiles/TLPI.dir/flags.make
+CMakeFiles/TLPI.dir/example/environ/environ.cpp.o: ../example/environ/environ.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kunqian/Desktop/CLion/TLPI/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/TLPI.dir/example/environ/environ.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/TLPI.dir/example/environ/environ.cpp.o -c /home/kunqian/Desktop/CLion/TLPI/example/environ/environ.cpp
+
+CMakeFiles/TLPI.dir/example/environ/environ.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/TLPI.dir/example/environ/environ.cpp.i"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kunqian/Desktop/CLion/TLPI/example/environ/environ.cpp > CMakeFiles/TLPI.dir/example/environ/environ.cpp.i
+
+CMakeFiles/TLPI.dir/example/environ/environ.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/TLPI.dir/example/environ/environ.cpp.s"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kunqian/Desktop/CLion/TLPI/example/environ/environ.cpp -o CMakeFiles/TLPI.dir/example/environ/environ.cpp.s
+
+CMakeFiles/TLPI.dir/example/environ/environ.cpp.o.requires:
+
+.PHONY : CMakeFiles/TLPI.dir/example/environ/environ.cpp.o.requires
+
+CMakeFiles/TLPI.dir/example/environ/environ.cpp.o.provides: CMakeFiles/TLPI.dir/example/environ/environ.cpp.o.requires
+	$(MAKE) -f CMakeFiles/TLPI.dir/build.make CMakeFiles/TLPI.dir/example/environ/environ.cpp.o.provides.build
+.PHONY : CMakeFiles/TLPI.dir/example/environ/environ.cpp.o.provides
+
+CMakeFiles/TLPI.dir/example/environ/environ.cpp.o.provides.build: CMakeFiles/TLPI.dir/example/environ/environ.cpp.o
+
+
+CMakeFiles/TLPI.dir/example/setenv/setenv.cpp.o: CMakeFiles/TLPI.dir/flags.make
+CMakeFiles/TLPI.dir/example/setenv/setenv.cpp.o: ../example/setenv/setenv.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kunqian/Desktop/CLion/TLPI/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/TLPI.dir/example/setenv/setenv.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/TLPI.dir/example/setenv/setenv.cpp.o -c /home/kunqian/Desktop/CLion/TLPI/example/setenv/setenv.cpp
+
+CMakeFiles/TLPI.dir/example/setenv/setenv.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/TLPI.dir/example/setenv/setenv.cpp.i"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kunqian/Desktop/CLion/TLPI/example/setenv/setenv.cpp > CMakeFiles/TLPI.dir/example/setenv/setenv.cpp.i
+
+CMakeFiles/TLPI.dir/example/setenv/setenv.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/TLPI.dir/example/setenv/setenv.cpp.s"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kunqian/Desktop/CLion/TLPI/example/setenv/setenv.cpp -o CMakeFiles/TLPI.dir/example/setenv/setenv.cpp.s
+
+CMakeFiles/TLPI.dir/example/setenv/setenv.cpp.o.requires:
+
+.PHONY : CMakeFiles/TLPI.dir/example/setenv/setenv.cpp.o.requires
+
+CMakeFiles/TLPI.dir/example/setenv/setenv.cpp.o.provides: CMakeFiles/TLPI.dir/example/setenv/setenv.cpp.o.requires
+	$(MAKE) -f CMakeFiles/TLPI.dir/build.make CMakeFiles/TLPI.dir/example/setenv/setenv.cpp.o.provides.build
+.PHONY : CMakeFiles/TLPI.dir/example/setenv/setenv.cpp.o.provides
+
+CMakeFiles/TLPI.dir/example/setenv/setenv.cpp.o.provides.build: CMakeFiles/TLPI.dir/example/setenv/setenv.cpp.o
+
+
+CMakeFiles/TLPI.dir/example/jmp/jmp.cpp.o: CMakeFiles/TLPI.dir/flags.make
+CMakeFiles/TLPI.dir/example/jmp/jmp.cpp.o: ../example/jmp/jmp.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kunqian/Desktop/CLion/TLPI/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/TLPI.dir/example/jmp/jmp.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/TLPI.dir/example/jmp/jmp.cpp.o -c /home/kunqian/Desktop/CLion/TLPI/example/jmp/jmp.cpp
+
+CMakeFiles/TLPI.dir/example/jmp/jmp.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/TLPI.dir/example/jmp/jmp.cpp.i"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kunqian/Desktop/CLion/TLPI/example/jmp/jmp.cpp > CMakeFiles/TLPI.dir/example/jmp/jmp.cpp.i
+
+CMakeFiles/TLPI.dir/example/jmp/jmp.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/TLPI.dir/example/jmp/jmp.cpp.s"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kunqian/Desktop/CLion/TLPI/example/jmp/jmp.cpp -o CMakeFiles/TLPI.dir/example/jmp/jmp.cpp.s
+
+CMakeFiles/TLPI.dir/example/jmp/jmp.cpp.o.requires:
+
+.PHONY : CMakeFiles/TLPI.dir/example/jmp/jmp.cpp.o.requires
+
+CMakeFiles/TLPI.dir/example/jmp/jmp.cpp.o.provides: CMakeFiles/TLPI.dir/example/jmp/jmp.cpp.o.requires
+	$(MAKE) -f CMakeFiles/TLPI.dir/build.make CMakeFiles/TLPI.dir/example/jmp/jmp.cpp.o.provides.build
+.PHONY : CMakeFiles/TLPI.dir/example/jmp/jmp.cpp.o.provides
+
+CMakeFiles/TLPI.dir/example/jmp/jmp.cpp.o.provides.build: CMakeFiles/TLPI.dir/example/jmp/jmp.cpp.o
+
+
 # Object files for target TLPI
 TLPI_OBJECTS = \
 "CMakeFiles/TLPI.dir/example/copy/copy.cpp.o" \
 "CMakeFiles/TLPI.dir/main.cpp.o" \
-"CMakeFiles/TLPI.dir/example/concat/concat.cpp.o"
+"CMakeFiles/TLPI.dir/example/concat/concat.cpp.o" \
+"CMakeFiles/TLPI.dir/example/iov/iov.cpp.o" \
+"CMakeFiles/TLPI.dir/example/environ/environ.cpp.o" \
+"CMakeFiles/TLPI.dir/example/setenv/setenv.cpp.o" \
+"CMakeFiles/TLPI.dir/example/jmp/jmp.cpp.o"
 
 # External object files for target TLPI
 TLPI_EXTERNAL_OBJECTS =
@@ -141,9 +241,13 @@ TLPI_EXTERNAL_OBJECTS =
 TLPI: CMakeFiles/TLPI.dir/example/copy/copy.cpp.o
 TLPI: CMakeFiles/TLPI.dir/main.cpp.o
 TLPI: CMakeFiles/TLPI.dir/example/concat/concat.cpp.o
+TLPI: CMakeFiles/TLPI.dir/example/iov/iov.cpp.o
+TLPI: CMakeFiles/TLPI.dir/example/environ/environ.cpp.o
+TLPI: CMakeFiles/TLPI.dir/example/setenv/setenv.cpp.o
+TLPI: CMakeFiles/TLPI.dir/example/jmp/jmp.cpp.o
 TLPI: CMakeFiles/TLPI.dir/build.make
 TLPI: CMakeFiles/TLPI.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/kunqian/Desktop/CLion/TLPI/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable TLPI"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/kunqian/Desktop/CLion/TLPI/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Linking CXX executable TLPI"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/TLPI.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -154,6 +258,10 @@ CMakeFiles/TLPI.dir/build: TLPI
 CMakeFiles/TLPI.dir/requires: CMakeFiles/TLPI.dir/example/copy/copy.cpp.o.requires
 CMakeFiles/TLPI.dir/requires: CMakeFiles/TLPI.dir/main.cpp.o.requires
 CMakeFiles/TLPI.dir/requires: CMakeFiles/TLPI.dir/example/concat/concat.cpp.o.requires
+CMakeFiles/TLPI.dir/requires: CMakeFiles/TLPI.dir/example/iov/iov.cpp.o.requires
+CMakeFiles/TLPI.dir/requires: CMakeFiles/TLPI.dir/example/environ/environ.cpp.o.requires
+CMakeFiles/TLPI.dir/requires: CMakeFiles/TLPI.dir/example/setenv/setenv.cpp.o.requires
+CMakeFiles/TLPI.dir/requires: CMakeFiles/TLPI.dir/example/jmp/jmp.cpp.o.requires
 
 .PHONY : CMakeFiles/TLPI.dir/requires
 
